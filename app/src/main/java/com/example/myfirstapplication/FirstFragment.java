@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,6 +15,8 @@ import androidx.navigation.fragment.NavHostFragment;
 
 public class FirstFragment extends Fragment {
     ImageView showCountTextView;
+
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -23,7 +26,6 @@ public class FirstFragment extends Fragment {
         View fragmentFirstLayout = inflater.inflate(R.layout.fragment_first, container, false);
         // Get the count text view
         showCountTextView = fragmentFirstLayout.findViewById(R.id.textview_first);
-
         return fragmentFirstLayout;
         //return inflater.inflate(R.layout.fragment_first, container, false);
     }

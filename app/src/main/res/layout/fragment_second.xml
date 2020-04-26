@@ -61,7 +61,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button1800"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -69,7 +69,7 @@
                 android:textColor="@color/text"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button1810"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -77,7 +77,7 @@
                 android:text="1810" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button1820"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -85,7 +85,7 @@
                 android:text="1820" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button1830"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -93,7 +93,7 @@
                 android:text="1830" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button1840"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -101,7 +101,7 @@
                 android:text="1840" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button1850"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -109,7 +109,7 @@
                 android:text="1850" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button1860"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
@@ -117,7 +117,7 @@
                 android:text="1860" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button1870"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
