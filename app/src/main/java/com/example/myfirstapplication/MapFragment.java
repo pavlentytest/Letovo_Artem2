@@ -147,36 +147,6 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                     .title("Test 1870"));
             mYear1870test.setTag(0);
         }
-        else if(current_year == 1880)
-        {
-            final LatLng year1880test = new LatLng(90, 90);
-            Marker mYear1880test;
-            mYear1880test = mMap.addMarker(new MarkerOptions()
-                    .position(year1880test)
-                    .draggable(false)
-                    .title("Test 1880"));
-            mYear1880test.setTag(0);
-        }
-        else if(current_year == 1890)
-        {
-            final LatLng year1890test = new LatLng(100, 100);
-            Marker mYear1890test;
-            mYear1890test = mMap.addMarker(new MarkerOptions()
-                    .position(year1890test)
-                    .draggable(false)
-                    .title("Test 1890"));
-            mYear1890test.setTag(0);
-        }
-        else if(current_year == 1900)
-        {
-            final LatLng year1900test = new LatLng(110, 110);
-            Marker mYear1900test;
-            mYear1900test = mMap.addMarker(new MarkerOptions()
-                    .position(year1900test)
-                    .draggable(false)
-                    .title("Test 1900"));
-            mYear1900test.setTag(0);
-        }
     }
 
     @Override

@@ -51,6 +51,61 @@ public class SecondFragment extends Fragment {
                         .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
             }
         });
+        view.findViewById(R.id.button1820).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1820);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+        view.findViewById(R.id.button1830).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1830);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+        view.findViewById(R.id.button1840).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1840);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+        view.findViewById(R.id.button1850).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1850);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+        view.findViewById(R.id.button1860).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1860);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+        view.findViewById(R.id.button1870).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle args = new Bundle();
+                args.putInt("year", 1870);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapFragment3,args);
+            }
+        });
+
 
     }
 

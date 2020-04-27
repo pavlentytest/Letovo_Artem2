@@ -5,19 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondFragment"
-    android:background="@color/main">
+    android:background="@color/main"
+    tools:context=".SecondFragment">
+
     <ImageView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/startpage422"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.20"
-        android:src="@drawable/startpage422"
-        />
+        app:layout_constraintVertical_bias="0.20" />
+
     <TextView
         android:id="@+id/textview_second"
         android:layout_width="wrap_content"
@@ -33,8 +34,8 @@
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/previous"
         android:background="@color/main"
+        android:text="@string/previous"
         android:textColor="@color/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,9 +48,11 @@
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="575dp"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="575dp"
         android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -66,63 +69,63 @@
                 android:layout_height="wrap_content"
                 android:background="@color/main"
                 android:text="1800"
-                android:textColor="@color/text"/>
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1810"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1810" />
+                android:text="1810"
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1820"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1820" />
+                android:text="1820"
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1830"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1830" />
+                android:text="1830"
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1840"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1840" />
+                android:text="1840"
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1850"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1850" />
-
-            <Button
-                android:id="@+id/button1860"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1860" />
+                android:text="1850"
+                android:textColor="@color/text" />
 
             <Button
                 android:id="@+id/button1870"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/main"
-                android:textColor="@color/text"
-                android:text="1870" />
+                android:text="1870"
+                android:textColor="@color/text" />
+
+            <Button
+                android:id="@+id/button1860"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/main"
+                android:text="1860"
+                android:textColor="@color/text" />
         </LinearLayout>
 
     </HorizontalScrollView>
